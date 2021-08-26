@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "express": "^4.17.1",
+    "tailwindcss": "^2.2.7"
+  },
+  "scripts": {
+    "build-css": "tailwindcss build src/tailwind.css -o public/css/tailwind.css"
+  },
+  "author": "Fouz <a321ak@gmail.com>",
+  "license": "ISC"
+}
